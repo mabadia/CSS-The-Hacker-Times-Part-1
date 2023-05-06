@@ -7,20 +7,20 @@ body {
 .newspaper-container {
   background: white;
   margin: 100px auto;
-  width: 75vw;
+  width: 750px;
   border-radius: 20px;
   padding: 25px;
   box-shadow: 5px #ddd;
 }
+
+.date {
+  text-align: ;
+}
+
 img {
   width: 100%;
 }
 
-section {
-  display: inline-block;
-  width: 45%;
-  margin-inline: 10px;
-}
 h1 {
   font-family: Abril Fatface;
   text-align: center;
@@ -29,12 +29,12 @@ h4 {
   font-family: Roboto Slab;
 }
 nav {
-  border-top: 2px solid lightgray;
-  border-bottom: 2px solid lightgray;
+  border-top: 1px solid #777;
+  border-bottom: 1px solid #777;
+  text-align: center;
 }
 li {
   display: inline-block;
-  /* margin-left: 2px; */
   font-size: 14px;
   padding: 2px;
 }
@@ -52,11 +52,22 @@ h5 {
 }
 p {
   padding: 10px;
+  text-align: justify;
+  font-family: 'source sans pro';
 }
 
 main {
-  border-bottom: 2px solid lightgray;
+  border-bottom: 1px solid #777;
 }
-h2 {
-  font-family: Roboto Slab;
+main h2 {
+  font-family: 'Roboto Slab';
+}
+
+.more-articles {
+  text-align: center;
+}
+section {
+  display: inline-block;
+  width: 45%;
+  margin-inline: 10px;
 }
